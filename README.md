@@ -1,41 +1,53 @@
-# Library-Managment-System
-Library Management System – Feature Summary
-🔹 Core Objective
-A Java-based console application to automate library operations for both administrators and students—making book and member management seamless and efficient.
+# 📚 Library Management System
 
-📚 Key Modules & Features
-1. Book Management
-Add / Modify / Delete Books: Keep the library inventory updated.
+A **Java-based console application** that streamlines library operations for both **administrators** and **students**. It offers robust book tracking, user membership management, and a smooth borrowing/returning workflow—all through an intuitive number-driven interface.
 
-View Book List: Display all available books.
+---
 
-Search Functionality: Search by book title or author name.
+## 🎯 Core Objective
 
-Borrow / Return System: Track book loans via token numbers, handle book quantity updates.
+To automate and digitize everyday library functions, reduce manual errors, and ensure efficient management of books, users, and transactions.
 
-2. Membership Management
-Add New Members: Register library users.
+---
 
-Cancel Memberships: Remove users from the system.
+## 🔹 Key Modules & Features
 
-Display Member List: View all current library members.
+### 📘 Book Management
+- ➕ **Add / Modify / Delete Books** – Keep the book inventory current.
+- 📖 **View Book List** – Display all available books in the system.
+- 🔍 **Search Books** – Search by **title** or **author name** with instant results.
 
-3. Transaction Management
-Borrow Books: Select books, verify writer, assign token numbers.
-Return Books: Use token numbers to return books accurately.
-Inventory Control: Real-time quantity tracking during transactions.
+### 🔁 Borrow / Return System
+- 🎟️ **Borrow Books** – Verify author name, select titles, assign token numbers.
+- 📥 **Return Books** – Process returns using token numbers.
+- 📦 **Inventory Updates** – Automatically adjusts book quantity during borrow/return.
 
+### 👤 Membership Management
+- 📝 **Add New Members** – Register students or users to the library system.
+- ❌ **Cancel Memberships** – Remove inactive or expired memberships.
+- 📋 **Display Member List** – Show all registered users with details.
 
+### 💳 Transaction Management
+- ✅ **Transaction Verification** – Ensures books are borrowed/returned accurately.
+- 📊 **Real-Time Inventory Control** – Updates book availability live during transactions.
 
-4. User Interface
-Console-Based Menu: Simple number-driven menu (1–10 options).
+---
 
-Interactive Prompts: Clear input/output messages, confirmation on every action.
+## 🖥️ User Interface
 
-Error Handling: Success/failure messages for smooth operation feedback.
+- 📑 **Console-Based Menu System** – Simple number-based options (1–10) for easy navigation.
+- 💬 **Interactive Prompts** – Clear input and confirmation messages for each action.
+- ❗ **Error Handling** – Success and failure notifications to guide user flow.
 
-⚙️ Technical Stack
-Language: Jav
-IDE: IntelliJ IDEA Community Edition 2022.3.1
-JDK Version: JDK 19
-Design Pattern: Object-Oriented Programming (OOP)
+---
+
+## ⚙️ Technical Stack
+
+| Component        | Details                                  |
+|------------------|------------------------------------------|
+| **Language**     | Java                                     |
+| **IDE**          | IntelliJ IDEA Community Edition 2022.3.1 |
+| **JDK Version**  | JDK 19                                   |
+| **Design**       | Object-Oriented Programming (OOP)        |
+
+---
